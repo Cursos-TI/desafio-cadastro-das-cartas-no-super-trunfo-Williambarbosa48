@@ -18,8 +18,16 @@
         printf("Código da primeira carta: \n");
         scanf("%3s", &codigoCarta1); 
 
+        
         printf("Código da segunda carta: \n");
         scanf("%3s", &codigoCarta2); 
+
+        printf("Digite o Estado A01: \n");
+        scanf("%3s", &estado1); 
+
+        printf("Digite o Estado B02: \n");
+        scanf("%3s", &estado2); 
+
      
         printf("Nome da primeira cidade: \n");
         scanf("%s", &nomeCidade1);  
@@ -53,6 +61,7 @@
      
     // Área para exibição dos dados da cidade
         printf("\n--- INFORMAÇÕES DA CIDADE ---\n");
+        printf("Digite o primeiro Estado: %\n", estado1);
         printf("Código da primeira sua carta: %s\n", codigoCarta1);
         printf("Nome da primeira cidade: %s\n", nomeCidade1);
         printf("Área: %2f\n", area1);  
@@ -61,6 +70,7 @@
         printf("PIB: %2f\n", pib1);
 
         printf("\n Codigo da segunda carta: %s\n", codigoCarta2);
+        printf("Digite o primeiro Estado: %\n", estado2);
         printf("Nome da segunda cidade: %s\n", nomeCidade2);
         printf("Área: %2f\n", area2);  
         printf("Pontos Turísticos: %d\n", pontosTuristicos2);
